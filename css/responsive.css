@@ -1,0 +1,78 @@
+@media only screen and (min-width: 800px) {
+	.navbar-nav{
+		margin-left:auto;
+	}
+  	.iti-nav h1{
+	  font-size: 44px;
+	}
+	.principal_message img{
+		width: 100%;
+	}
+	.intro h2, .courses_offered h2, .principal_message h2, .about-us-intro h2, .full-courses h2, .gallery h2{
+    	font-size: 34px;
+	}
+	.iti-nav img{
+		height: 119px;
+	    width: 115px;
+	}
+	.nav-item{
+	  margin: auto;
+	}
+	.navbar-expand-md .navbar-nav .dropdown-menu {
+	    top: 35px;
+	}
+	.hero-content h1{
+		font-size:64px;
+		font-weight: bold;
+	}
+
+}
+@media only screen and (max-width: 800px) {
+	.navbar-dark .navbar-toggler{
+		margin-left: auto;
+	}
+	.iti-nav img{
+		display: none;
+	}
+	.shift .logo1, .shift .logo2{
+		width:50px;
+		height: 50px;
+		margin-right: 5px;
+	}
+	.navbar-nav{
+		margin-top: 18px;
+	}
+	img, .sec-gallery img{
+		width: 100%;
+	}
+	.nav-item{
+		margin-bottom: 3%;
+	}
+  	.iti-nav h1{
+	  font-size: 20px;
+	}
+	.principal_message img{
+		width: 100%;
+	}
+	.iti-nav img{
+		height: 75px;
+	    width: 75px;
+	}
+	.mission_vission img{
+		height: auto!important;
+	}
+	.about-us-intro img{
+		width:100%;
+	}
+	.footer_gallery iframe, .youtube_videos iframe{ 
+		width: 100%;
+	}
+	.course-card{
+		margin-bottom: 3%;
+	}
+	.imageSlides{
+		object-fit: cover;
+	}
+
+}
+	
