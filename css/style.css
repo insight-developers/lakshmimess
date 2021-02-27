@@ -168,8 +168,8 @@ nav ul li a:before {
   text-align: justify;
 }
 .intro h4{
-  color: red;
-  border-bottom: 2px solid red;
+  color: #c22933;
+  border-bottom: 2px solid #c22933;
   padding-bottom: 1%;
 }
 .quote-background{
@@ -193,7 +193,6 @@ nav ul li a:before {
     margin-top: 10%;
 }
 .quote-background p, .quote-background p span{
-  font-size: 35px;
     line-height: 44px;
     color: #fff;
     font-weight: bold;
@@ -267,22 +266,23 @@ nav ul li a:before {
 }
 
 .social_share{
-  padding: 2em 0;
+  padding: 2% 0 1%;
   background: #007bff;
 }
-.social_share a{
+.ss a{
   color: black;
 }
-.social_share i{
+.ss i{
   margin-right: 10px;
-  background-color: yellow;
-  padding:11px;
+  background-color: #ffcb06;
+  padding:9px;
   border-radius: 50%;
+  text-align: center;
   /*color: white;*/
-  width: 40px;
+  width: 35px;
   margin-bottom: 1%;
 }
-.social_share i:hover{
+.ss i:hover{
   /*background-color: transparent;*/
   color: #007bff;
 }
@@ -559,5 +559,18 @@ nav ul li a:before {
   padding-bottom: 1%;
 }
 .testimonials h6{
-  color: red;
+  color: #c22933;
+}
+
+.marqueee{
+  background-color: #ffcb06;
+  font-weight: bold;
+  padding: 17px 0 10px; 
+  font-family: 'Arbutus Slab', serif;
+}
+.marqueee a{
+  color: #c22933;
+}
+.marqueee a:hover{
+  text-decoration: none;
 }
