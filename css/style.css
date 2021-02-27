@@ -1,10 +1,10 @@
-*{
+/**{
   font-family: 'Open Sans', sans-serif;
-}
-h2,h3,h4,h5,h6{
+}*/
+*{
   font-family: 'Poppins', sans-serif;
 }
-h1, h1 span{
+h1, h1 span, h2,h3,h4,h5,h6{
   font-family: 'Arbutus Slab', serif;
 }
 header, .navbar-inverse{
@@ -21,26 +21,7 @@ header, .navbar-inverse{
 .dropdown-item{
   color: #000!important;
 }
-.iti-nav{
-	display: inline-flex;
-	min-width: 100%;
-	padding:01% 2% 0;
-}
 
-.iti-nav img{
-    box-shadow: -9px 3px 20px black;
-    vertical-align: middle;
-}
-
-.iti-nav .logo2{
-	float: right;
-}
-.iti-nav h1{
-    font-weight: bold;
-    color: #fdfdfd;
-    text-shadow: 11px 12px 20px black;
-    text-align: center;
-}
 .nav-link{
 	 color: #fff!important;
     font-size: 14px;
@@ -66,8 +47,8 @@ nav ul li a:before {
   background-size:cover;
   background-repeat: no-repeat;
   height: 600px;
-  background-color: #E97452;
-  background-position: top right;
+  /*background-color: #E97452;*/
+  background-position: left;
 }
 .hero-content{
   padding: 15% 0 20%;
@@ -90,8 +71,9 @@ nav ul li a:before {
   border-radius: 20px;
   padding:1% 3%;
   border:2px solid #fff;
-  background-color: transparent;
+  background-color: blue;
   color: #fff;
+  font-weight: bold;
 }
 .slider1{
   background-image: url("../images/sliders/slide3.jpg");
@@ -103,8 +85,7 @@ nav ul li a:before {
   background-image: url("../images/sliders/slider2.jpg");
 }
 .hero-content button:hover{
-  background-color: #fff;
-  color: #000;
+  border:2px solid blue;
 }
 /*carousal*/
 .carousel-inner,.carousel,.carousel-item, .fill {
@@ -172,11 +153,11 @@ nav ul li a:before {
   background-color:red;
 }
 
-.intro, .courses_offered, .principal_message, .gallery, .about-us-intro, .full-courses, .our-staffs {
+.intro,.gallery {
   padding:3% 0;
 }
 
-.intro h2, .courses_offered h2, .principal_message h2, .about-us-intro h2, .full-courses h2, .gallery h2, .our-staffs h2, .section-gallery h2{
+.intro h2, .gallery h2, .section-gallery h2{
     color: blue;
     text-align: center;
     padding:0 0 3%;
@@ -184,6 +165,11 @@ nav ul li a:before {
 }
 .intro div p{
   text-align: justify;
+}
+.intro h4{
+  color: red;
+  border-bottom: 2px solid red;
+  padding-bottom: 1%;
 }
 .quote-background{
   background-image: url("../images/sliderbg.jpg");
@@ -194,6 +180,17 @@ nav ul li a:before {
   background-position: center center;
   position: relative;
 }
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.quote-background .lead{
+    margin-top: 10%;
+}
 .quote-background p, .quote-background p span{
   font-size: 35px;
     line-height: 44px;
@@ -202,61 +199,43 @@ nav ul li a:before {
     text-align: center;
 }
 .quote-background p span{
-  font-size: 26px;
+  font-size: 22px;
   display: block;
   padding-top: 3%;
-}
-.courses_offered{
-  background: rgb(249, 245, 239);
-}
-.courses_offered ul {
-  list-style: none;
-}
-.courses_offered ul li{
-  padding-bottom: 2%;
-}
-.courses_offered ul li:before {
-  content: '✓';
-  /*background-color: #E91E63;*/
-  color: #E91E63;
-  border-radius: 50%;
-  /*width: 40px;*/
-  padding:3px;
-  font-weight: bold;
-  margin-right: 5px;
-  font-size: 16px;
+  font-style: italic;
 }
 
-.principal_message{
-  background: rgba(139, 195, 74, 0.23);
+
+.gallery{
+  background: aliceblue;
 }
-.p_message{
-  text-align: justify;
-}
-.p_message h5{
-  color: #009688;
-}
-.principal_message h6{
-  float: right;
-  color: #F44336;
-  font-weight: bold;
-}
-.principal_message p{
-  font-size: 14px;
-}
+
 .gallery img:hover, .principal_message img:hover{
   transform: scale(1.01);
   cursor: pointer;
 }
 .footer{
   background: #212121;
+  /*background: url("../images/footerbg.jpg");*/
+  background-size: cover;
+  background-position: center top;
   color: white;
   padding:4% 0;
 }
 .footer h2{
-  padding-bottom: 5%;
-  color: blue;
+  padding-bottom: 10%;
   font-weight: bold;
+}
+
+.footer h2:before {
+    content: "";
+    height: 5px;
+    width: 45px;
+    background: blue;
+    position: absolute;
+    left: 18px;
+    z-index: 1;
+    top: 50px;
 }
 
 .footer p{
@@ -288,7 +267,7 @@ nav ul li a:before {
 
 .social_share{
   padding: 2em 0;
-    background: blue;
+  background: turquoise;
 }
 .social_share a{
   color: black;
@@ -321,84 +300,7 @@ nav ul li a:before {
 .breadcrump h2 span{
   color: #f58025;
 }
-.about-us-intro img{
-  width: 450px;
-  height: 300px;
-  object-fit: cover;
-}
-.mission_vission{
-  padding: 5em 0;
-    background: rgb(249, 245, 239);
-}
 
-.mission_vission h3{
-  padding-bottom: 2%;
-  font-weight: bold;
-  color: #E91E63;
-}
-.mission_vission img{
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  margin-bottom: 4%;
-}
-
-.course-card{
-  border: 1px solid beige;
-  background-color: #009688;
-  padding: 6% 3% 2%;
-  min-height: 337px;
-  border-radius: 4px;
-}
-
-.course-card:hover .course-card h3 { 
-  border-bottom: 2px solid white;
-}
-.course-card:hover {
-  box-shadow: 5px 10px 18px #888888;
-  transform: scale(1.01);
-}
-.full-courses h3{
-  /*color: #f58025;*/
-  color: #fff;
-  padding:2% 0 3%;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.full-courses img{
-  padding-bottom: 4%;
-}
-
-.full-courses h4{
-  /*color: #E91E63;*/
-  color: #f58025;
-  font-weight: bold;
-}
-.full-courses img{
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-}
-.course-card li{
-  color: #fff;
-}
-.placements p{
-  text-align: center;
-}
-.placements img{
-  display: block;margin: auto;
-}
-#contact-us label{
-  color: #f58025;
-}
-.contactus .fas{
-  padding-right: 5px;
-}
-.contactus a{
-  color: #000;
-}
 .gallery img{
   width: 100%;
   height: 250px;
@@ -522,15 +424,16 @@ nav ul li a:before {
   outline:0;
 }
 
-.gallery-single{
-  margin: 30px 0px;
-}
-
 .gallery-single {
     position: relative;
     overflow: hidden;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
+    margin: 30px 0px;
+}
+
+.gallery-single img{
+  height: 230px;
 }
 
 .why-text {
@@ -539,11 +442,16 @@ nav ul li a:before {
     bottom: -100%;
     right: 0;
     height: 100%;
-    background: rgba(207, 166, 113, 0.9);
+    background: rgba(44, 130, 201, 0.9);
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
+
+.gallery-single:hover .why-text{
+    bottom: 0px;
+}
+
 .why-text h4{
   color: #ffffff;
   font-size: 24px;
@@ -565,6 +473,90 @@ nav ul li a:before {
   color: #ffffff;
 }
 
-.gallery-single:hover .why-text{
-  bottom: 0px;
+
+/*------------------------------------------------------------------
+    Customer Reviews
+-------------------------------------------------------------------*/
+
+.customer-reviews-box{
+  padding: 70px 0px;
+}
+
+.carousel-inner .carousel-item .img-box{
+  width: 135px;
+  height: 135px;
+}
+.carousel-control-prev{
+  left: -100px;
+}
+.carousel-control-next{
+  right: -100px;
+}
+.carousel-indicators{
+  top: 320px;
+}
+
+.text-warning{
+  color: blue;
+  font-size: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .carousel-inner .carousel-item p{
+    font-size: 14px;
+  }
+  .carousel-control-prev{
+    left: -5px;
+  }
+  .carousel-control-next{
+    right: -5px;
+  }
+  .carousel-indicators{
+    top: 400px;
+  }
+}
+
+#reviews .carousel-control-prev{
+  background: blue;
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  width: 6%;
+  height: 40px;
+  top: 50%;
+  font-size: 28px;
+  opacity: 1;
+}
+#reviews .carousel-control-prev:hover{
+  background: #010101;
+  color: #ffffff;
+}
+
+#reviews .carousel-control-next{
+  background: blue;
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  width: 6%;
+  height: 40px;
+  top: 50%;
+  font-size: 28px;
+  opacity: 1;
+}
+#reviews .carousel-control-next:hover{
+  background: #010101;
+  color: #ffffff;
+}
+.img-box img{
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testimonials h5{
+  color: blue;
+  padding-bottom: 1%;
+}
+.testimonials h6{
+  color: red;
 }
