@@ -8,7 +8,7 @@
 	.principal_message img{
 		width: 100%;
 	}
-	.intro h2, .courses_offered h2, .principal_message h2, .about-us-intro h2, .full-courses h2, .gallery h2{
+	.intro h2, .courses_offered h2, .principal_message h2, .about-us-intro h2, .full-courses h2, .gallery h2, .menu-box h2, .everyday-special h2{
     	font-size: 34px;
 	}
 	.iti-nav img{
@@ -31,6 +31,17 @@
 	.quote-background p{
 		font-size: 50px;
 	}
+	#hero{
+	  height: 600px;
+	}
+	.everyday-special .card{
+		height: 200px;
+	}
+	.everyday-special img{
+	    width: 100%;
+	    height: 180px;
+	    margin-bottom: 5%;
+	  }
 
 }
 @media only screen and (max-width: 800px) {
@@ -49,6 +60,9 @@
 	.navbar-nav{
 		margin-top: 18px;
 	}
+	#hero{
+	  height: 400px;
+	}
 	img, .sec-gallery img{
 		width: 100%;
 	}
@@ -64,9 +78,10 @@
 	.imageSlides{
 		object-fit: cover;
 	}
-	.quote-background .lead {
-	    margin-top: 20%;
-	}
+	.quote-background p span {
+    	font-size: 14px;
+    	padding-top: 0;
+    }
 	.filter-button-group button{
 		padding: 8px 10px;
 	}
@@ -77,6 +92,39 @@
 		height: 22px;
     	font-size: 16px;
 	}
-
+	.quote-background{
+	  padding: 20px 0;
+	}
+	.hero-content h4{
+		font-size: 20px;
+	}
+	.hero-content {
+	    padding: 33% 0 20%;
+	}
+	.hero-content button{
+		font-size: 12px;
+	}
+	.gqb{
+	  padding: 14% 0;
+	}
+	.get-quote{
+		padding: 8% 0;
+	}
+	.footer h2{
+		font-size: 22px;
+	}
+	.footer h2:before{
+		top: 35px;
+	}
+	#myCarousel .carousel-indicators{
+		top: 331px;
+	}
+	.carousel-indicators > li {
+	    width: 10px;
+	    height: 10px;
+	}
+	.everyday-special img{
+		margin-bottom: 5%;
+	}
 }
 	
