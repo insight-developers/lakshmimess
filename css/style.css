@@ -75,16 +75,16 @@ nav ul li a:before {
   font-weight: bold;
 }
 .slider1{
-  /*background-image: url("../images/sliders/slide3.jpg");*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/sliders/slide3.jpg);
+  background-image: url("../images/sliders/3.png");
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/sliders/slide3.jpg);*/
 }
 .slider2{
-  /*background-image: url("../images/sliders/sliderbg.jpeg");*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/sliders/banner-02.jpg);
+  background-image: url("../images/sliders/1.png");
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/sliders/banner-02.jpg);*/
 }
 .slider3{
-  /*background-image: url("../images/sliders/slider2.jpg");*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/sliders/banner-01.jpg);
+  background-image: url("../images/sliders/2.png");
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/sliders/banner-01.jpg);*/
 }
 .hero-content button:hover{
   border:2px solid #007bff;
