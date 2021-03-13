@@ -1,7 +1,4 @@
-*{
-  font-family: 'Poppins', sans-serif;
-}
-h1, h1 span, h2,h3,h4,h5,h6{
+*,h1, h1 span, h2,h3,h4,h5,h6{
   font-family: 'Arbutus Slab', serif;
 }
 header, .navbar-inverse{
@@ -126,7 +123,7 @@ nav ul li a:before {
 .intro h2, .gallery h2, .section-gallery h2, .menu-box h2, .everyday-special h2{
     color: #007bff;
     text-align: center;
-    padding:0 0 3%;
+    padding:0 0 1%;
     font-weight: bold;
 }
 .intro div p{
@@ -310,7 +307,7 @@ nav ul li a:before {
 }
 
 .heading-title{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .heading-title h2{
   /*color: #010101;*/
