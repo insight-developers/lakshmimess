@@ -42,6 +42,9 @@
 	    height: 180px;
 	    margin-bottom: 5%;
 	  }
+	.t-r{
+		text-align: right;
+	}
 
 }
 @media only screen and (max-width: 800px) {
@@ -112,10 +115,11 @@
 		padding: 8% 0;
 	}
 	.footer h2{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.footer h2:before{
-		top: 35px;
+		top: 31px;
+		height: 3px;
 	}
 	#myCarousel .carousel-indicators {
 	    top: 184px;
@@ -135,6 +139,12 @@
 	}
 	.carousel-inner, .carousel, .carousel-item, .fill {
 	    min-height: 214px;
+	}
+	.social_share{
+		text-align: center;
+	}
+	.footer .col-md-4{
+		margin-bottom: 5%;
 	}
 }
 	
